@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    gap: 0.8rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+h2 {
+    max-height: fit-content;
+    text-align: center;
+    font-size: 3rem;
+}
+
+
+.result {
+    border: 0.1rem solid black;
+    width: 70%;
+    height: 40%;
+}
+
+.buttons {
+    display: flex;
+    gap: 0.3rem;
+    width: 100%;
+}
+
+.buttons * {
+    flex: 1;
+    height: 5rem;
+}
