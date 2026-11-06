@@ -31,7 +31,6 @@ const multiplyBtn = document.querySelector(".multiply")
 const divideBtn = document.querySelector(".divide")
 const equalBtn = document.querySelector(".equal")
 const result = document.querySelector(".result")
-const numInput = document.querySelector(".numInput")
 
 addBtn.addEventListener("click", () => {
     operator = "+"
@@ -46,6 +45,3 @@ divideBtn.addEventListener("click", () => {
     operator = "/"
 })
 
-equalBtn.addEventListener("click", () => {
-    result.textContent = operate(3, operator, 4)
-})
